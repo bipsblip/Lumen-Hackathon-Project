@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(event.jpg);
+    text-align: center;
+}
+.h1
+{
+    text-align:center;
+    color: black;
+}
+
+.form-box
+{
+    width:380px;
+	height:380px;
+	position:relative;
+	margin:2% auto;
+	background:rgba(105, 247, 169, 0.8);
+	padding:10px;
+    overflow: hidden;
+}
+.h3{
+    font: size 30px;
+    color: white;
+    text-align:center;
+}
+#btn
+{
+	top: 0;
+	left:0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: #F3C693;
+	border-radius: 30px;
+	transition: .5s;
+}
+.ManageEvent-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f892da;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    color: lightgreen;
+}
+.ManageEvent-btn:hover
+{
+    background-color: white;
+}
+.RegisterEvent-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f892da;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    color: lightgreen;
+}
+.RegisterEvent-btn:hover
+{
+    background-color:white;
+}
+.ViewEvent-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: #f892da;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+    color: lightgreen;
+}
+.ViewEvent-btn:hover
+{
+    background-color:white;
+}
