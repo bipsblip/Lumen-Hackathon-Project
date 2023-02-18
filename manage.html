@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Events</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <style>
+    h1 {
+      font-size: 3em;
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+    }
+
+    th, td {
+      border: 1px solid black;
+         font-size: 1.3em;
+        padding: 10px;
+    }
+
+    th {
+      background-color: #1E90FF;
+      color: white;
+      font-size: 2em;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    input[type=text], select {
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #1E90FF;
+      color: white;
+      padding: 14px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #5F9EA0;
+    }
+
+    .filter-form {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .filter-form input[type=text], .filter-form select {
+      width: 30%;
+      margin-right: 10px;
+    }
+
+    .search-form {
+      text-align: center;
+      margin-bottom: 30px;
+      
+    }
+
+    .search-form input[type=text] {
+      width: 30%;
+    }
+
+    .delete-form {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Manage Events</h1>
+
+  <div>
+    <input type="text" placeholder="Search by event name">
+    <select>
+      <option value="">Filter by event type</option>
+      <option value="offline">offline</option>
+      <option value="online">online</option>
+    </select>
+    <button>Delete Selected Events</button>
+  </div>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Select</th>
+        <th>Event Name</th>
+        <th>Description</th>
+        <th>Event Date</th>
+        <th>Event Time</th>
+        <th>Organizer Phone</th>
+        <th>Organizer Email</th>
+        <th>Seating Capacity</th>
+        <th>Event Type</th>
+        <th>Location</th>
+        <th>Webinar Address Link</th>
+        <th>Attachment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Example Event 1</td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat turpis eget leo vulputate aliquam. Sed consectetur lectus id sapien varius auctor.</td>
+        <td>2023-03-10</td>
+        <td>14:00-18:00</td>
+        <td>+1 (234) 567-8901</td>
+        <td>example1@example.com</td>
+        <td>100</td>
+        <td>Conference</td>
+        <td>New York City</td>
+        <td>https://example.com/webinar1</td>
+        <td><a href="example.pdf" download>Download</a></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Example Event 2</td>
+        <td>Suspendisse tristique ultricies risus, eu bibendum erat aliquam vel. Curabitur in consequat libero. Suspendisse euismod sem vel elit vulputate, at lacinia purus blandit.</td>
+        <td>2023-03-15</td>
+        <td>10:00-12:00</td>
+        <td>+1 (234) 567-8902</td>
+        <td>example2@example.com</td>
+        <td>50</td>
+        <td>Workshop</td>
+        <td>Los Angeles</td>
+        <td>https://example.com/webinar2</td>
+        <td><a href="example.pdf" download>Download</a></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Example Event 2</td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat turpis eget leo vulputate aliquam. Sed consectetur lectus id sapien varius auctor.</td>
+        <td>2023-04-15</td>
+        <td>09:00-12:00</td>
+        <td>+1 (234) 567-8902</td>
+        <td>example2@example.com</td>
+        <td>50</td>
+        <td>Workshop</td>
+        <td>Los Angeles</td>
+        <td>https://example.com/webinar2</td>
+        <td><a href="example.pdf" download>Download</a></td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>Example Event 3</td>
+        <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat turpis eget leo vulputate aliquam. Sed consectetur lectus id sapien varius auctor.</td>
+        <td>2023-05-20</td>
+        <td>10:00-16:00</td>
+        <td>+1 (234) 567-8903</td>
+        <td>example3@example.com</td>
+        <td>200</td>
+        <td>Conference</td>
+        <td>San Francisco</td>
+        <td>https://example.com/webinar3</td>
+        <td><a href="example.pdf" download>Download</a></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
