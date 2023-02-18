@@ -1,0 +1,15 @@
+{
+  "name": "lumen-event-management",
+  "version": "1.0.0",
+  "description": "This is a lumen hackathon project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shivam Tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.9.2"
+  }
+}
